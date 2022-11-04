@@ -25,5 +25,8 @@ $ python3 ebay-dl.py cat --num_pages=5
 ```
 
 ## How to Use the Command Line to Generate CSV
-The final action in the command line is to use the optional `--csv` argument to convert your file to CSV format. This is important because you may want to do some action with your data that requires a csv file (or maybe working with a CSV file would make your life a  heck of a lot easier). The default code will not generate a CSV file, so in order to create one, you must set `--csv=True`. 
+The final action in the command line is to use the optional `--csv` argument to convert your file to CSV format. This is important because you may want to do some action with your data that requires a csv file (or maybe working with a CSV file would make your life a  heck of a lot easier). The default code will not generate a CSV file, so in order to create one, you must set `--csv=True`. Here is an example of how to run the command line to generate a CSV file:
+```
+$ python3 ebay-dl.py cat  --csv=True
+```
 
